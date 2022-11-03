@@ -16,6 +16,7 @@ import featured_user6 from "../../Assets/featured_user6.jpg";
 import featured_user7 from "../../Assets/featured_user7.jpg";
 import featured_user8 from "../../Assets/featured_user8.jpg";
 import { AiOutlineHeart } from "react-icons/ai";
+import './Featured.css';
 
 
 function Featured() {
@@ -39,7 +40,7 @@ function Featured() {
                                             <li class="react-tabs__tab" role="tab" id="react-tabs-2" aria-selected="false" aria-disabled="false" aria-controls="react-tabs-3"><a>Art</a></li>
                                             <li class="react-tabs__tab" role="tab" id="react-tabs-4" aria-selected="false" aria-disabled="false" aria-controls="react-tabs-5"><a>Virtual Worlds</a></li>
                                             <li class="react-tabs__tab" role="tab" id="react-tabs-6" aria-selected="false" aria-disabled="false" aria-controls="react-tabs-7"><a>Collectibles</a></li>
-                                            {/* <li class="react-tabs__tab" role="tab" id="react-tabs-8" aria-selected="false" aria-disabled="false" aria-controls="react-tabs-9"><a>Music</a></li> */}
+                                            <li class="react-tabs__tab" role="tab" id="react-tabs-8" aria-selected="false" aria-disabled="false" aria-controls="react-tabs-9"><a>Music</a></li>
                                             </ul>
                                             </ul>
                                             </div>
@@ -48,7 +49,7 @@ function Featured() {
                                                     <div class="tabs_item">
                                                         <div class="row justify-content-center">
                                                             <div class="col-lg-3 col-md-6">
-                                                                <div class="featured-item">
+                                                                <div class="featured-item morgin">
                                                                     <div class="featured-item-img">
                                                                         <a href="/item-details">
                                                                             <img src={featured_1} alt="Images"/>

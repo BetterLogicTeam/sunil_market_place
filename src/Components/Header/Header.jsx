@@ -13,12 +13,13 @@ function Header() {
     <div>
         <Navbar fixed="top" className="nav_main" collapseOnSelect expand="lg" bg="" variant="">
       <Container>
-        <Navbar.Brand href="#home"><img src={logo} alt="" /></Navbar.Brand>
+        {/* <Navbar.Brand href="#home"><img src={logo} alt="" /></Navbar.Brand> */}
+        <Navbar.Brand href="#home" className='text-white brand'>BTSPRO</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#features">
-            {/* <div class="nav-widget-form"><form class="search-form"><input type="search" class="form-control" placeholder="Search items, Creators "/><button className='pink' type="submit"><FiSearch /></button></form></div> */}
+            <div class="nav-widget-form"><form class="search-form"><input type="search" class="form-control" placeholder="Search items, Creators "/><button className='pink' type="submit"><FiSearch /></button></form></div>
             </Nav.Link>
           </Nav>
           <Nav>

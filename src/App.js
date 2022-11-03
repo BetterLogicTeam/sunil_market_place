@@ -8,6 +8,7 @@ import Auction from './Components/Auction/Auction';
 import Featured from './Components/Featured/Featured';
 import Create_sell from './Components/Create_sell/Create_sell';
 import Author from './Components/Author/Author';
+import Collection from './Components/Collection/Collection';
 import Footer from './Components/Footer/Footer';
 
 
@@ -24,6 +25,7 @@ function App() {
       <Featured />
       <Create_sell />
       <Author />
+      <Collection />
       <Footer />
     </div>
   );

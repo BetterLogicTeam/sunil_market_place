@@ -231,3 +231,10 @@ img {
 .ri-heart-line:before {
     content: "\ee0f";
 }
+
+@media (min-width:800px) and (max-width:1024px) {
+    .trending_active{
+        width: 250px !important;
+    }
+}
+

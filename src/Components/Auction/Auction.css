@@ -11,3 +11,9 @@
         width: auto !important;
     }
 }
+
+@media (min-width:800px) and (max-width:1024px){
+    .auction_active{
+        width: 315px !important;
+    }
+}

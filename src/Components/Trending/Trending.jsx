@@ -64,7 +64,7 @@ function Trending() {
               }}
              navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-        <div class="owl-item active" style={{width: "300px"}}>
+        <div class="owl-item active trending_active" style={{width: "300px"}}>
             <div class="trending-item">
                 <div class="trending-img">
                     <a href="/item-details">
@@ -86,7 +86,7 @@ function Trending() {
                                     </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="owl-item active" style={{width: "300px"}}>
+        <div class="owl-item active trending_active" style={{width: "300px"}}>
             <div class="trending-item">
                 <div class="trending-img">
                     <a href="/item-details">
@@ -108,7 +108,7 @@ function Trending() {
                                     </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="owl-item active" style={{width: "300px"}}>
+        <div class="owl-item active trending_active" style={{width: "300px"}}>
             <div class="trending-item">
                 <div class="trending-img">
                     <a href="/item-details">
@@ -130,7 +130,7 @@ function Trending() {
                                     </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="owl-item active" style={{width: "300px"}}>
+        <div class="owl-item active trending_active" style={{width: "300px"}}>
             <div class="trending-item">
                 <div class="trending-img">
                     <a href="/item-details">
@@ -152,7 +152,7 @@ function Trending() {
                                     </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="owl-item active" style={{width: "300px"}}>
+        <div class="owl-item active trending_active" style={{width: "300px"}}>
             <div class="trending-item">
                 <div class="trending-img">
                     <a href="/item-details">

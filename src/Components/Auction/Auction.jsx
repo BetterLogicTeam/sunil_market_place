@@ -69,7 +69,7 @@ function Auction() {
         className="mySwiper"
       >
         <SwiperSlide>
-        <div class="owl-item active" style={{width: "422px"}}>
+        <div class="owl-item active auction_active" style={{width: "422px"}}>
             <div class="auction-item">
                 <div class="auction-item-img">
                     <a href="/auction">
@@ -107,7 +107,7 @@ function Auction() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="owl-item active" style={{width: "422px"}}>
+        <div class="owl-item active auction_active" style={{width: "422px"}}>
             <div class="auction-item">
                 <div class="auction-item-img">
                     <a href="/auction">
@@ -145,7 +145,7 @@ function Auction() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="owl-item active" style={{width: "422px"}}>
+        <div class="owl-item active auction_active" style={{width: "422px"}}>
             <div class="auction-item">
                 <div class="auction-item-img">
                     <a href="/auction">
@@ -183,7 +183,7 @@ function Auction() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="owl-item active" style={{width: "422px"}}>
+        <div class="owl-item active auction_active" style={{width: "422px"}}>
             <div class="auction-item">
                 <div class="auction-item-img">
                     <a href="/auction">
